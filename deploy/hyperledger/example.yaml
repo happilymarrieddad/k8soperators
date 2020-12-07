@@ -1,0 +1,8 @@
+apiVersion: hyperledger.example.org/v1alpha1
+kind: CertificateAuthority
+metadata:
+  name: certificate-authorities
+spec:
+  name: "Some Auth"
+  numberOfCas: 1
+  intermediateCas: false

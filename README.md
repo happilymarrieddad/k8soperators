@@ -48,3 +48,15 @@ kubectl apply -f deploy/hyperledger/example.yaml
 ```bash
 kubectl describe certificateauthorities certificate-authorities
 ```
+
+### Api/Web example
+```bash
+operator-sdk create api --group hyperledger --version v1alpha1 --kind ApiWeb
+
+make install
+
+make deploy
+
+kubectl describe apiwebs api-web
+```
+

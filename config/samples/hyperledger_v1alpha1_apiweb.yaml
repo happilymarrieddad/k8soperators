@@ -1,0 +1,7 @@
+apiVersion: hyperledger.example.org/v1alpha1
+kind: ApiWeb
+metadata:
+  name: apiweb-sample
+spec:
+  # Add fields here
+  foo: bar

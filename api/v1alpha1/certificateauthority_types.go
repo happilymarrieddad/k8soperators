@@ -27,6 +27,7 @@ type CertificateAuthoritySpec struct {
 	OrgName       string `json:"name,omitempty"`
 	NumberOfCAs   int64  `json:"numberOfCas"`
 	IntermiateCAs bool   `json:"intermediateCas"`
+	Image         string `json:"image,omitempty"`
 }
 
 // CertificateAuthorityStatus defines the observed state of CertificateAuthority

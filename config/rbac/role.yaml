@@ -9,6 +9,26 @@ rules:
 - apiGroups:
   - hyperledger.example.org
   resources:
+  - apiwebs
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - hyperledger.example.org
+  resources:
+  - apiwebs/status
+  verbs:
+  - get
+  - patch
+  - update
+- apiGroups:
+  - hyperledger.example.org
+  resources:
   - certificateauthorities
   verbs:
   - create

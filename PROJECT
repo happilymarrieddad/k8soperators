@@ -4,4 +4,7 @@ resources:
 - group: hyperledger
   kind: CertificateAuthority
   version: v1alpha1
+- group: hyperledger
+  kind: ApiWeb
+  version: v1alpha1
 version: "2"

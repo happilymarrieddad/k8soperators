@@ -37,6 +37,8 @@ spec:
         spec:
           description: CertificateAuthoritySpec defines the desired state of CertificateAuthority
           properties:
+            image:
+              type: string
             intermediateCas:
               type: boolean
             name:
